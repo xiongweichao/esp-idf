@@ -87,7 +87,7 @@ ESP-IDF 中的子模块采用相对路径（[详见 .gitmodules 文件](.gitmodu
 
 不必先运行 `idf.py build` 再运行 `idf.py flash`，`idf.py flash` 会根据需要自动重新构建项目。
 
-## 观察串口输入
+## 观察串口输出
 
 `idf.py monitor` 会调用 [idf_monitor 工具](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/idf-monitor.html)来显示乐鑫芯片的串口输出。`idf_monitor` 还包含一系列的功能来解析程序崩溃后的输出结果并与设备进行交互。更多详细内容，请参阅[文档](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/idf-monitor.html).
 
